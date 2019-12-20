@@ -8,7 +8,13 @@ class ProfileItem extends Component {
     const { profile } = this.props;
 
     return (
-      <div className="card card-body mb-3" style={{ backgroundColor: "#558ba0", borderRadius: "20px" }}>
+      <div className="card card-body mb-3" style={{
+        borderRadius: "20px",
+        backgroundImage: "url('backevent.jpg')",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover", borderRadius: "20px"
+      }}>
         <div className="row">
           <div className="col-2">
             <img src={profile.avatar} alt="Not available" className="rounded-circle" />

@@ -54,14 +54,14 @@ class Event extends Component {
         return (
             <div className="create-profile">
                 <div className="container">
-                    <div className="row" style={{ border: "1px solid #00000030", borderRadius: "20px" }}>
+                    <div className="row" style={{ border: "1px solid #00000030", borderRadius: "20px", backgroundImage: "url('./pencil.jpg')", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
                         <div className="col-md-8 m-auto">
                             <h1 className="display-4 text-center">Create Event</h1>
 
                             <small className="d-block pb-3">* = required fields</small>
                             <form onSubmit={this.onSubmit}>
 
-                                <div style={{ textAlign: "left" }}>Title :
+                                <div style={{ textAlign: "left", fontSize: "1.7em" }}>Title :
                                     <br></br>
                                 </div>
 
@@ -79,7 +79,7 @@ class Event extends Component {
 
 
 
-                                <div style={{ textAlign: "left" }}>Description :
+                                <div style={{ textAlign: "left", fontSize: "1.7em" }}>Description :
                                     <br></br>
                                 </div>
 
@@ -95,6 +95,7 @@ class Event extends Component {
 
 
                                 <div style={{
+                                    fontSize: "1.7em",
                                     textAlign: "left", display: "inline",
                                     position: "relative",
                                     left: " -22vw"
@@ -118,6 +119,7 @@ class Event extends Component {
                                     position: "relative",
                                     left: " -7vw",
                                     top: "-5vh"
+                                    , fontSize: "1.7em"
                                 }}>Time :
                                     <br></br>
                                 </div>
@@ -129,10 +131,11 @@ class Event extends Component {
                                     onChange={this.onChange}
                                     error={errors.eventTime}
                                     info=""
+
                                 />
 
 
-                                <div style={{ textAlign: "left" }}>Venue :
+                                <div style={{ textAlign: "left", fontSize: "1.7em" }}>Venue :
                                     <br></br>
                                 </div>
                                 <TextFieldGroup
