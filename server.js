@@ -1,9 +1,11 @@
+const cors = require('cors')
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const mongoose = require('mongoose');
 const withAuth = require('./middleware');
 const app = express();
+app.use(cors())
 const posts = require('./routes/api/posts');
 const profile = require('./routes/api/profile');
 const users = require('./routes/api/users');
