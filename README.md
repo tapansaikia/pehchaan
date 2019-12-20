@@ -13,3 +13,4 @@ and then in a separate window/tab run the frontend inside client Folder
 npm start
 ```
 The application should be running at [http://localhost:3000/](http://localhost:3000/)
+Use the latest version of nodejs
