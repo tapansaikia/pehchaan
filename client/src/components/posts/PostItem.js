@@ -48,7 +48,7 @@ class PostItem extends Component {
             position: "relative",
             paddingLeft: "5vw"
           }}>
-            <p className="lead">{post.text}</p>
+            <p className="" style={{ fontSize: "1.25em", textAlign: "justify" }}>{post.text}</p>
             {showActions ? (
               <span>
                 <button

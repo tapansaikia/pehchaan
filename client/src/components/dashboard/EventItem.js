@@ -19,7 +19,7 @@ class EventItem extends Component {
                 <div className="row">
                     <div className="col-lg-6 col-md-4 col-8" style={{ textAlign: "left" }}>
                         <p style={{ fontWeight: "bold", fontSize: "1.7em", color: "white" }}>Title: {event.title}</p>
-                        <p style={{ fontWeight: "bold", fontSize: "1.2em", color: "white" }}>Description: <span style={{ fontWeight: "normal", fontSize: "1.2em" }}>{event.description}</span></p>
+                        <p style={{ fontWeight: "bold", fontSize: "1.2em", color: "white", textAlign: "justify" }}>Description: <span style={{ fontWeight: "normal", fontSize: "0.8em" }}>{event.description}</span></p>
                         <p style={{ fontWeight: "bold", fontSize: "1.2em", color: "white" }}>Date: <span style={{ fontWeight: "normal", fontSize: "1.2em" }}>{event.eventDate}</span></p>
                         <p style={{ fontWeight: "bold", fontSize: "1.2em", color: "white" }}>Time: <span style={{ fontWeight: "normal", fontSize: "1.2em" }}>{event.eventItem}</span> </p>
                         <p style={{ fontWeight: "bold", fontSize: "1.2em", color: "white" }}>Venue: <span style={{ fontWeight: "normal", fontSize: "1.2em" }}>{event.venue}</span></p>
