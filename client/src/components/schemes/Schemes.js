@@ -12,7 +12,11 @@ export class Schemes extends Component {
     }
 
     componentDidMount() {
-        axios.get('https://scrapeschema.herokuapp.com/scrape')
+        axios.get('https://scrapeschema.herokuapp.com/scrape', {
+            headers: {
+                'Access-Control-Allow-Origin': true,
+            },
+        })
             .then(res => {
                 const schemes = res.data
                 this.setState({ schemes })

@@ -3,9 +3,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const mongoose = require('mongoose');
 const withAuth = require('./middleware');
-const cors = require('cors')
 const app = express();
-
 const posts = require('./routes/api/posts');
 const profile = require('./routes/api/profile');
 const users = require('./routes/api/users');
@@ -22,6 +20,8 @@ mongoose.connect(mongo_uri, {
     console.log(`Successfully connected to ${mongo_uri}`);
   }
 });
+
+
 
 app.use(bodyParser.urlencoded({
   extended: false
