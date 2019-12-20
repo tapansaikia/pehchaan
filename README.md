@@ -1,5 +1,5 @@
 # AIM
-Information and Social Section for Differntly Abled People which include event organisations, success stories, posts and Job Opportunities using seamlessley
+Information and Social Section for Differntly Abled People which include event organisations, success stories, posts and Job Opportunities statically and seamlessly
 
 # Running the Platform 
 Install the dependencies
