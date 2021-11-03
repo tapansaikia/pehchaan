@@ -13,7 +13,7 @@
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.4.3",
-    "validator": "^11.1.0",
+    "validator": "^13.7.0",
     "yarn.lock": "^0.0.1-security"
   },
   "scripts": {
