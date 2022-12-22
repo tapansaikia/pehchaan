@@ -11,7 +11,7 @@
     "express": "^4.17.1",
     "formidable": "^1.2.1",
     "gravatar": "^1.8.0",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.4.3",
     "validator": "^11.1.0",
     "yarn.lock": "^0.0.1-security"
